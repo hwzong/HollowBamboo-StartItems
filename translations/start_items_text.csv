@@ -1,0 +1,7 @@
+id,zh,en
+ITEM_SELECTION,物品选择,Item Selection
+OUT_OF_MAX,超出物品限制,Unblock the maximum limit
+NUMBER_OF_ENEMIES_BY_COMMON,白色物品敌人数量,Number of enemies added by common item
+NUMBER_OF_ENEMIES_BY_UNCOMMON,蓝色物品敌人数量,Number of enemies added by uncommon item
+NUMBER_OF_ENEMIES_BY_RAGE,紫色物品敌人数量,Number of enemies added by rage item
+NUMBER_OF_ENEMIES_BY_LEGENDARY,红色物品敌人数量,Number of enemies added by legendary item

@@ -1,0 +1,83 @@
+{
+	"name": "StartItems",
+	"namespace": "HollowBamboo",
+	"version_number": "1.2.2",
+	"description": "Select start items",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": [
+				"HollowBamboo"
+			],
+			"compatible_mod_loader_version": "6.0.0",
+			"compatible_game_version": [
+				"1.0.0"
+			],
+			"config_schema":{
+				"type": "object",
+				"properties": {
+					"out_of_max": {
+						"type": "boolean",
+						"default": true,
+					},
+					"items": {
+						"type": "integer",
+						"default": 3,
+						"minimum": 1,
+						"maximum": 5,
+					},
+					"number_of_enemies_by_common": {
+						"type": "integer",
+						"default": 10,
+						"minimum": 5,
+						"maximum": 100,
+					},
+					"number_of_enemies_by_uncommon": {
+						"type": "integer",
+						"default": 10,
+						"minimum": 5,
+						"maximum": 100,
+					},
+					"number_of_enemies_by_rage": {
+						"type": "integer",
+						"default": 10,
+						"minimum": 5,
+						"maximum": 100,
+					},
+					"number_of_enemies_by_legendary": {
+						"type": "integer",
+						"default": 10,
+						"minimum": 5,
+						"maximum": 100,
+					},
+					
+				}
+			},
+			"config_defaults": {
+				"out_of_max": true,
+				"items": 3,
+				"items_min": 1,
+				"items_max": 5,
+				"items_step": 1,
+				"number_of_enemies_by_common": 10,
+				"number_of_enemies_by_common_min": 5,
+				"number_of_enemies_by_common_max": 100,
+				"number_of_enemies_by_common_step": 5,
+				"number_of_enemies_by_uncommon": 10,
+				"number_of_enemies_by_uncommon_min": 5,
+				"number_of_enemies_by_uncommon_max": 100,
+				"number_of_enemies_by_uncommon_step": 5,
+				"number_of_enemies_by_rage": 10,
+				"number_of_enemies_by_rage_min": 5,
+				"number_of_enemies_by_rage_max": 100,
+				"number_of_enemies_by_rage_step": 5,
+				"number_of_enemies_by_legendary": 10,
+				"number_of_enemies_by_legendary_min": 5,
+				"number_of_enemies_by_legendary_max": 100,
+				"number_of_enemies_by_legendary_step": 5,
+			}
+		}
+	}
+}
